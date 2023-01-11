@@ -34,4 +34,4 @@ Pontos importantes:
 [Bikcraft](https://araujoeduarda.github.io/Pagina-Inicial-Responsiva-Bikcraft/)
 
 # 🎨 **Modelo no Figma**
-      [https://www.figma.com/file/tvFEYhVfZTjdJ5P24RGV21/Alura-Challenge---Desafio-1---L%C3%B3gica?node-id=2%3A213&t=o7PHq876egM1fc2f-0)](https://www.figma.com/file/hgcIJeW0HK3uET8lGB8bzy/Untitled?node-id=0%3A1&t=5c0otzGPugsSkpTU-0)
+      https://www.figma.com/file/hgcIJeW0HK3uET8lGB8bzy/Untitled?node-id=0%3A1&t=5c0otzGPugsSkpTU-0
