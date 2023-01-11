@@ -1,6 +1,6 @@
 # Pagina-Inicial-Responsiva-Bikcraft
 
-                                       Projeto de página inicial responsiva para o site da empresa de bicicletas fictícia Bikcraft
+                              Projeto de página inicial responsiva para o site da empresa de bicicletas fictícia Bikcraft
                                                    
 
 
@@ -31,7 +31,7 @@ Pontos importantes:
 </p>
 
 # 🌎 **Página do Projeto**
-
+[Bikcraft](https://araujoeduarda.github.io/Pagina-Inicial-Responsiva-Bikcraft/)
 
 # 🎨 **Modelo no Figma**
       https://www.figma.com/file/tvFEYhVfZTjdJ5P24RGV21/Alura-Challenge---Desafio-1---L%C3%B3gica?node-id=2%3A213&t=o7PHq876egM1fc2f-0)
