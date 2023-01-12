@@ -30,7 +30,7 @@ Pontos importantes:
 <img width="400" src="https://user-images.githubusercontent.com/113942221/211683012-c76dcf55-a359-46d9-b7de-5b0792025e80.jpg">
 </p>
 
-# 🌎 **Página do Projeto**
+# 🌐 **Página do Projeto**
 [Bikcraft](https://araujoeduarda.github.io/Pagina-Inicial-Responsiva-Bikcraft/)
 
 # 🎨 **Modelo no Figma**
