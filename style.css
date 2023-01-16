@@ -1,11 +1,35 @@
+:root {
+  --fundo1: #f7f7f7;
+  --fundo2: #fff;
+  --cor-primaria: #e21;
+  --cor-primaria-escura: #900;
+  --cor-sombra: rgba(187, 20, 65, 0.336);
+  --navcolor: #000000;
+  --texto: #000;
+  --cor-subtitulo: rgba(0, 0, 0, 0.2);
+  --onda: url("./img/onda-clara.svg");
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --fundo1: #111111;
+    --fundo2: #000000;
+    --texto: #ffffff;
+    --navcolor: #ffffff;
+    --cor-subtitulo: rgba(255, 255, 255, 0.2);
+    --onda: url("./img/onda-escura.svg");
+  }
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0px;
-  background: #f7f7f7;
+  background: var(--fundo1);
   display: grid;
   gap: 60px;
   justify-items: center;
   margin-top: 60px;
+  color: var(--texto);
 }
 
 img {
@@ -35,7 +59,7 @@ h1::after {
   display: inline-block;
   width: 5px;
   height: 5px;
-  background: #ee2211;
+  background: var(--cor-primaria);
   border-radius: 50%;
 }
 
@@ -55,16 +79,16 @@ h1::after {
 }
 
 .menu a {
-  background: #fff;
+  background: var(--fundo2);
   padding: 1rem 2rem;
-  color: #000000;
+  color: var(--navcolor);
   text-transform: uppercase;
   display: block;
   border: 2px solid transparent;
 }
 
 .menu a:hover {
-  border-color: #ee2211;
+  border-color: var(--cor-primaria);
   border-radius: 2px;
   animation: beats 1.4s;
   transition: 0.8s;
@@ -76,7 +100,7 @@ h1::after {
   max-width: 1000px;
 }
 .introducao {
-  background-color: #fff;
+  background-color: var(--fundo2);
   padding: 20px;
   text-align: right;
   position: relative;
@@ -94,7 +118,7 @@ h1::after {
   content: "";
   width: 60px;
   height: 4px;
-  background: #ee2211;
+  background: var(--cor-primaria);
   position: absolute;
   top: 20px;
   right: -30px;
@@ -106,30 +130,30 @@ h1::after {
 }
 
 .botao {
-  background: #ee2211;
-  color: #fff;
+  background: var(--cor-primaria);
+  color: var(--fundo2);
   padding: 1rem 2rem;
   border-radius: 4px;
   text-transform: uppercase;
   transition: 0.8s;
 }
 .botao:hover {
-  background-color: #900;
+  background-color: var(--cor-primaria-escura);
   animation: beats 1s infinite;
 }
 
 .subtitulo {
   font-size: 4rem;
   text-transform: uppercase;
-  color: rgba(0, 0, 0, 0.2);
+  color: var(--cor-subtitulo);
   text-align: right;
   padding: 40px;
   align-self: center;
-  background-image: url("./onda.svg");
+  background-image: var(--onda);
 }
 
 .vantagens {
-  background: #fff;
+  background: var(--fundo2);
   padding: 40px;
 }
 .vantagens-itens {
@@ -143,12 +167,12 @@ h1::after {
 }
 
 .vantagens-itens:hover {
-  border-left: 4px solid #ee2211;
+  border-left: 4px solid var(--cor-primaria);
   animation: beats 1.7s;
 }
 
 .vantagens-itens:nth-child(odd) {
-  background: #f7f7f7;
+  background: var(--fundo1);
 }
 
 li {
@@ -157,7 +181,7 @@ li {
 
 footer {
   width: 100%;
-  background: #fff;
+  background: var(--fundo2);
   text-align: center;
   padding: 40px;
   box-sizing: border-box;
@@ -169,7 +193,7 @@ footer {
   }
   60% {
     transform: scale(0.9);
-    box-shadow: 8px 8px 0 rgba(187, 20, 65, 0.336);
+    box-shadow: 8px 8px 0 var(--cor-sombra);
   }
   100% {
     transform: scale(1);
